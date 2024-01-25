@@ -8,7 +8,7 @@ fun main (){
     }
     else if (b == "-"){
         var a = x - y
-        println(a),f
+        println(a)
     }
     else if (b == "*"){
         var a = x * y
