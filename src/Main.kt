@@ -1,21 +1,15 @@
-fun main (){
-    var x = readLine()?.toDoubleOrNull()!!
-    var b = readLine()!!
-    var y = readLine()!!.toDouble()
-    if  (b == "+") {
-        var a = x + y
-        println(a)
-    }
-    else if (b == "-"){
-        var a = x - y
-        println(a)
-    }
-    else if (b == "*"){
-        var a = x * y
-        println(a)
-    }
-    else if (b == "/"){
-        var a = x / y
-        println(a)
+fun main() {
+
+    for (i in 100..999) {
+        var one = i / 100
+        var three = i % 10
+        var two = i / 10
+        two = two % 10
+        if (one != two && two != three && three != one) {
+            println(i)
+        }
     }
 }
+
+
+
